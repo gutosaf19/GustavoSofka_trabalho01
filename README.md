@@ -1,4 +1,4 @@
-# Rotina Escolar Inteligente
+# Agenda Escolar 
 
 Aplicativo desenvolvido em Flutter para auxiliar estudantes na organização da rotina escolar.
 
