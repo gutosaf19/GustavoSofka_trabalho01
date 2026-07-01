@@ -1,19 +1,31 @@
+// ==========================
+// ARQUIVO: main.dart
+// ==========================
+
 import 'package:flutter/material.dart';
 
+import 'telas/tela_principal.dart';
+
 void main() {
-  runApp(const StudyPlannerApp());
+  runApp(const OrganizadorEscolarApp());
 }
 
+<<<<<<< HEAD
 // ======================
 // APP PRINCIPAL
 // ======================
 class StudyPlannerApp extends StatelessWidget {
   const StudyPlannerApp({super.key});
+=======
+class OrganizadorEscolarApp extends StatelessWidget {
+  const OrganizadorEscolarApp({super.key});
+>>>>>>> 00fcfc0 (Adicionando as demais páginas)
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Rotina Escolar Inteligente',
+<<<<<<< HEAD
       debugShowCheckedModeBanner: false,
 
       theme: ThemeData(
@@ -607,6 +619,21 @@ class TaskListPage
           ),
         );
       },
+=======
+
+      theme: ThemeData(
+        primarySwatch: Colors.indigo,
+
+        scaffoldBackgroundColor: Colors.grey.shade100,
+
+        appBarTheme: const AppBarTheme(
+          centerTitle: true,
+          elevation: 4,
+        ),
+      ),
+
+      home: const TelaPrincipal(),
+>>>>>>> 00fcfc0 (Adicionando as demais páginas)
     );
   }
 }
