@@ -10,22 +10,18 @@ void main() {
   runApp(const OrganizadorEscolarApp());
 }
 
-<<<<<<< HEAD
 // ======================
 // APP PRINCIPAL
 // ======================
 class StudyPlannerApp extends StatelessWidget {
   const StudyPlannerApp({super.key});
-=======
 class OrganizadorEscolarApp extends StatelessWidget {
   const OrganizadorEscolarApp({super.key});
->>>>>>> 00fcfc0 (Adicionando as demais páginas)
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Rotina Escolar Inteligente',
-<<<<<<< HEAD
       debugShowCheckedModeBanner: false,
 
       theme: ThemeData(
